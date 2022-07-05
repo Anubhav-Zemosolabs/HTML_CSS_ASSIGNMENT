@@ -1,0 +1,60 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Simple Login Form </title>
+    </head>
+    <body>
+
+        <div class="row">
+        <div class="col-sm-7">
+            <div class="logocontainer">
+                <img class = "google"  style="height: 60px; width:200px;" src="images/logo.png" alt="#"><br><br><br><br>
+                <h3 style="text-align: left; "><strong>Sign in to your workspace</strong></h3>
+            </div>
+            <form action="action_page.php" method="post">
+                    <div class="imgcontainer">
+                        <button> 
+                                <img src="images/google.png" alt="#">
+                                <a href="https://bit.ly/3IfCJoI" style="padding-left: 80px; color: rgb(92, 90, 90)"><strong>Sign in with the google</strong></a>
+                        </button>
+                    </div>
+              
+                    <div class="option text-muted">
+                        <span>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<strong>OR USE EMAIL</strong>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</span>
+                    </div>
+                
+                    <div class="container">
+                        <label for="uname"><b>EMAIL</b></label><br>
+                        <input type="text" placeholder="john@company.com" name="uname" required>
+                        <br><br>
+                        <label for="psw"><b>PASSWORD</b></label><br>
+                        <input type="password" placeholder="Password" name="psw" required>
+                        
+                        <button type="submit">Log me in </button>
+                    </div>
+                
+                    <div class="lastcontainer" style="background-color:#ffffff">
+                        <label>
+                            <input type="checkbox" name="remember"> Remember me
+                        </label>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                
+                    <div class="container">
+                        <span class="psr">Don't have an account? <a href="page2.html" style="color:grey">sign up</a></span>
+                    </div>
+                </form>
+            </div>  
+            <div class="col-sm-5">
+                    <img src="images/sideimg.png" alt="">
+            </div>
+        </div>
+    </body>
+    </html>
